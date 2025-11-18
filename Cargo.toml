@@ -3,6 +3,18 @@ name = "rs-tail1"
 version = "0.1.0"
 edition = "2024"
 
+description = "Prints the last line of the input."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-tail1"
+homepage = "https://github.com/takanoriyanagitani/rs-tail1"
+documentation = "https://docs.rs/rs-tail1/latest"
+keywords = ["tail", "text"]
+categories = ["command-line-utilities"]
+
+exclude = [
+	"rs-tail1",
+]
+
 [lints.rust]
 unsafe_code = "forbid"
 
